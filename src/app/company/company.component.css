@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.company-info {
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    margin-left: 500px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    column-gap: 50px;
+    
+}
+
+.in-image {
+    flex: 0 0 calc(25% - 200px); /* 3 images in one row with 100px gap */
+    display: flex;
+    justify-content: center;
+    row-gap: 100px;
+    transform: scale(1.05);
+}
+
+.image img, img {
+    width: 200px;
+    height: 200px;
+    margin: 50px; /* 100px gap in each line */
+}

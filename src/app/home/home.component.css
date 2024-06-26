@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    float: left;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.content {
+    position: relative;
+}
+
+.corner-images {
+    position: absolute;
+    top: 0;
+}
+
+.left-corner-img {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 20px; /* Optional: Adds space between the image and the text */
+}
+
+.right-corner-img {
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-left:1000px; /* Optional: Adds space between the image and the text */
+}
+
+.center-img {
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
+    width: 900px;
+    height: 570px;
+}
+
+.corner-images::after {
+    content: "";
+    display: table;
+    clear: both; /* Clear floats within the .corner-images container */
+}

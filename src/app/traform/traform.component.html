@@ -1,0 +1,56 @@
+<div class="container" id="placement">
+    <form id="placementForm"  action="http://localhost:4201/add" method="POST">
+        <div class="one">
+            <label for="trainingName">Training Name</label>
+            <input type="text" id="trainingName" name="trainingName" required placeholder="Enter Training Name">
+        </div>
+        <br>
+        <div class="one">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Name">
+        </div>
+        <br><br>
+        <div class="one">
+            <label for="rollno">Roll No</label>
+            <input type="text" id="rollno" name="rollno" required placeholder="Enter Roll No">
+        </div>
+        <br>
+        <div class="one">
+            <label for="branch">Branch</label>
+            <select id="branch" name="branch" required>
+                <option value="">Select the Branch</option>
+                <option value="Civil">Civil Engineering</option>
+                <option value="Mechanical">Mechanical Engineering</option>
+                <option value="Mechatronics">Mechatronics Engineering</option>
+                <option value="Automobile">Automobile Engineering</option>
+                <option value="Chemical">Chemical Engineering</option>
+                <option value="Food">Food Technology</option>
+                <option value="Electrical">Electrical and Electronics Engineering</option>
+                <option value="Electronics">Electronics and Instrumentation Engineering</option>
+                <option value="Communications">Electronics and Communication Engineering</option>
+                <option value="Computer">Computer Science and Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="ComputerDesign">Computer Science and Design</option>
+                <option value="AI">Artificial Intelligence (AIM & AIDS)</option>
+            </select>
+        </div>
+        <br>
+        <div class="one">
+            <label for="year">Year</label>
+            <select id="year" name="year" required>
+                <option value="">Select the Year</option>
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+            </select>
+        </div>
+        <br>
+        <div class="one">
+            <label for="skill">Skill</label>
+            <input type="text" id="skill" name="skill" required placeholder="Enter Skill">
+        </div>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>

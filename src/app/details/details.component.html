@@ -1,0 +1,23 @@
+<h2 id="trainingName"></h2>
+<table id="placementTable">
+    <thead>
+        <tr>
+            <th>Training Name</th>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Branch</th>
+            <th>Year</th>
+            <th>Skill</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of data">
+            <td>{{ user.trainingName }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.rollno }}</td>
+            <td>{{ user.branch }}</td>
+            <td>{{ user.year }}</td>
+            <td>{{ user.skill }}</td>
+        </tr>
+    </tbody>
+</table>

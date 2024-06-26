@@ -1,0 +1,40 @@
+
+.training-programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.program {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.program:hover{
+    transform: scale(1.05);
+
+}
+.lightpink { background-color: #FFB6C1; }
+.lightskyblue { background-color: #87CEFA; }
+.lightgreen { background-color: #90EE90; }
+.mediumpurple { background-color: #9370DB; }
+.sandybrown { background-color: #F4A460; }
+.mediumturquoise { background-color: #48D1CC; }
+.lightgoldenrodyellow { background-color: #FAFAD2; }
+.tomato { background-color: #FF6347; }
+.lightcoral { background-color: #F08080; }
+.lightcyan { background-color: #E0FFFF; }
+.lightseagreen { background-color: #20B2AA; }
+.peru { background-color: #CD853F; }
+.wheat { background-color: #F5DEB3; }
+.khaki { background-color: #F0E68C; }
+.gold { background-color: #FFD700; }
+.lemonchiffon { background-color: #FFFACD; }
+a{
+    text-decoration: none;
+    color:#3b1900;
+}

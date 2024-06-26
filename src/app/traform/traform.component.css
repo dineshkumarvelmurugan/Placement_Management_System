@@ -1,0 +1,65 @@
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4caf50;
+    font-family: 'Arial', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: #250000;
+    font-size: 16px;
+    text-align: left;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 22px);
+    padding: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #ff9f00, #ff4000);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+    font-family: 'Arial', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #ff4000, #ff9f00);
+}
